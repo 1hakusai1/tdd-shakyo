@@ -14,6 +14,12 @@ public class MoneyTest {
         assertEquals(new Doller(10), five.times(2));
     }
 
+    @Test
+    public void _5ドルを3倍すると15ドルになる() {
+        Doller five = new Doller(5);
+        assertEquals(new Doller(15), five.times(3));
+    }
+
     @Nested
     public class ValueObjectとしての振る舞いのテスト {
         @Test
