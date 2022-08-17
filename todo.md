@@ -5,3 +5,4 @@
 - [ ] 丸め処理をどうするか
 - [x] equals()
 - [x] hashCode()
+- [ ] 5CHF*2=10CHF
