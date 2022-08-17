@@ -3,3 +3,5 @@
 - [ ] amountをprivateにする
 - [x] 副作用をどうするか
 - [ ] 丸め処理をどうするか
+- [x] equals()
+- [x] hashCode()
