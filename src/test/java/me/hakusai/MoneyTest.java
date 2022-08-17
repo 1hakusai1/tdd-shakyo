@@ -8,16 +8,20 @@ import org.junit.jupiter.api.Test;
 
 public class MoneyTest {
 
-    @Test
-    public void _5ドルを2倍すると10ドルになる() {
-        Doller five = new Doller(5);
-        assertEquals(new Doller(10), five.times(2));
-    }
+    @Nested
+    public class 掛け算のテスト {
 
-    @Test
-    public void _5ドルを3倍すると15ドルになる() {
-        Doller five = new Doller(5);
-        assertEquals(new Doller(15), five.times(3));
+        @Test
+        public void _5ドルを2倍すると10ドルになる() {
+            Doller five = new Doller(5);
+            assertEquals(new Doller(10), five.times(2));
+        }
+
+        @Test
+        public void _5ドルを3倍すると15ドルになる() {
+            Doller five = new Doller(5);
+            assertEquals(new Doller(15), five.times(3));
+        }
     }
 
     @Nested
